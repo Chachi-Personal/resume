@@ -42,7 +42,7 @@
   existing Tiera platform, bridging academic prototyping with production software
 - Architected and scoped new product features, operating across both engineering
   and product management responsibilities
-- Joined full-time following a university collaboration project with the same company
+- Joined part-time following a university collaboration project with the same company
 
 #work(
   title: "Calculus Tutor",
@@ -51,16 +51,8 @@
   dates: dates-helper(start-date: "Sep 2024", end-date: "Nov 2024"),
 )
 - Tutored undergraduate students in Calculus, covering limits, derivatives,
-  integrals, and multivariable analysis
+  integrals, and differential equations
 - Assisted in problem sessions and provided individual academic guidance
-
-#work(
-  title: "Web Development Intern",
-  company: "One For Fit (OFF)",
-  location: "Rousse, Bulgaria",
-  dates: "Summer 2020",
-)
-- Completed a summer internship focused on web development at a tech company
 
 == Projects
 
@@ -84,31 +76,31 @@
 - Implemented authentication, dynamic menus, and responsive UI with the
   TALL stack (Tailwind, Alpine.js, Laravel, Livewire)
 
-#work(
-  title: "Self-Hosted AI Infrastructure",
-  company: "Personal Project",
-  location: "Eindhoven, Netherlands",
-  dates: "2024 – Present",
-)
-- Deployed local LLM inference using Ollama on a VPS running Arch Linux
-- Integrated multiple AI APIs (OpenRouter, Anthropic Claude) into
-  personal development workflows
+// #work(
+//   title: "Self-Hosted AI Infrastructure",
+//   company: "Personal Project",
+//   location: "Eindhoven, Netherlands",
+//   dates: "2024 – Present",
+// )
+// - Deployed local LLM inference using Ollama on a VPS running Arch Linux
+// - Integrated multiple AI APIs (OpenRouter, Anthropic Claude) into
+//   personal development workflows
 
 == Honors & Awards
 
-#work(
-  title: "1st Place — Eastern Competitive Programming Competition",
-  company: "",
-  location: "Rousse, Bulgaria",
-  dates: "2016",
-)
+// #work(
+//   title: "1st Place — Eastern Competitive Programming Competition",
+//   company: "",
+//   location: "Rousse, Bulgaria",
+//   dates: "2016",
+// )
 
-#work(
-  title: "3rd Place — National Mathematical Linguistics Olympiad (Teams)",
-  company: "",
-  location: "Bulgaria",
-  dates: "2019",
-)
+// #work(
+//   title: "3rd Place — National Mathematical Linguistics Olympiad (Teams)",
+//   company: "",
+//   location: "Bulgaria",
+//   dates: "2019",
+// )
 
 #work(
   title: "3rd Award — Teenhack Hackathon",
@@ -116,7 +108,8 @@
   location: "Rousse, Bulgaria",
   dates: "2020",
 )
-- Idea: smart fridge camera tracking products using computer vision
+- Idea: smart fridge camera tracking products using computer vision and ML, keeping list of items,
+  providing notification before item expiration, and automatic shopping list renewal
 
 #work(
   title: "Semifinalist — Pandalabs Hackathon (WWF)",
@@ -130,10 +123,9 @@
 == Technical Skills
 
 - *Languages:* Python, C/C++, JavaScript/TypeScript, PHP, Bash/Shell
-- *Frameworks & Tools:* Laravel, Livewire, Jetstream, Linux (Arch), Neovim,
-  Docker, Git, Ollama, OpenRouter
-- *Areas:* Embedded Systems, AI/ML Deployment, Full-Stack Web Development,
-  Linux Systems Administration
+- *Frameworks & Tools:* Laravel, Livewire, Linux (Arch), Neovim,
+  Docker, Git
+- *Areas:* Full-Stack Web Development, Linux Systems Administration
 
 == Languages
 
