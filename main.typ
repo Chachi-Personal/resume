@@ -12,6 +12,20 @@
   paper: "a4",
 )
 
+#let availability = [*Available for a full-time internship from Jul 2026 to Sep 2026.*]
+#let profile = [Third-year Computer Science & Engineering and Applied Mathematics student at TU/e with experience in software engineering, embedded systems coursework, and full-stack product development. Interested in embedded systems, AI integration, and practical engineering projects.]
+
+#align(right)[
+  #box(stroke: 0.5pt + gray, inset: 6pt, width: 70pt, height: 80pt)[
+    #align(center + horizon)[
+      #text(size: 8pt, fill: gray)[Professional\ Photo]
+    ]
+  ]
+]
+
+#par(justify: true)[#profile]
+#par(justify: true)[#availability]
+
 == Education
 
 #edu(
@@ -20,17 +34,16 @@
   dates: dates-helper(start-date: "Sep 2023", end-date: "Jul 2027 (Expected)"),
   degree: "B.Sc. Computer Science & Engineering / Applied Mathematics",
 )
-- Relevant Coursework: Algorithms & Data Structures, Operating Systems,
-  Embedded Systems, Machine Learning, Linear Algebra, Calculus
+- Relevant coursework: Algorithms & Data Structures, Operating Systems, Embedded Systems, Machine Learning, Linear Algebra, Calculus
 
 #edu(
   institution: "Baba Tonka High School of Mathematics",
-  location: "Rousse, Bulgaria",
+  location: "Ruse, Bulgaria",
   dates: dates-helper(start-date: "2018", end-date: "2023"),
   degree: "High School Diploma — Mathematics & Computer Science",
 )
 
-== Work Experience
+== Experience
 
 #work(
   title: "Software Engineer & Product Manager",
@@ -38,11 +51,8 @@
   location: "Netherlands",
   dates: dates-helper(start-date: "Feb 2026", end-date: "May 2026"),
 )
-- Integrated the university-built Pathway Teleassistance app into the company's
-  existing Tiera platform, bridging academic prototyping with production software
-- Architected and scoped new product features, operating across both engineering
-  and product management responsibilities
-- Joined part-time following a university collaboration project with the same company
+- Integrated the university-built Pathway Teleassistance app into the production Tiera platform
+- Scoped and translated product requirements into engineering tasks across a part-time role
 
 #work(
   title: "Calculus Tutor",
@@ -50,9 +60,7 @@
   location: "Eindhoven, Netherlands",
   dates: dates-helper(start-date: "Sep 2024", end-date: "Nov 2024"),
 )
-- Tutored undergraduate students in Calculus, covering limits, derivatives,
-  integrals, and differential equations
-- Assisted in problem sessions and provided individual academic guidance
+- Guided undergraduate students in calculus topics including derivatives, integrals, and differential equations
 
 == Projects
 
@@ -62,54 +70,26 @@
   location: "Eindhoven, Netherlands",
   dates: dates-helper(start-date: "Sep 2025", end-date: "Feb 2026"),
 )
-- Developed a Teleassistance application as a university project in a team
-  setting, subsequently adopted and integrated into Touchpulse's production platform
-- Acted as both engineer and product architect throughout the full semester
+- Built a team-based teleassistance application later adopted into a company platform
+- Contributed as engineer and product architect throughout the full project cycle
 
 #work(
   title: "Chinese Restaurant Website",
   company: "Freelance",
-  location: "Rousse, Bulgaria",
+  location: "Ruse, Bulgaria",
   dates: "Summer 2020",
 )
-- Built a full-stack restaurant website using Laravel, Jetstream, and Livewire
-- Implemented authentication, dynamic menus, and responsive UI with the
-  TALL stack (Tailwind, Alpine.js, Laravel, Livewire)
+- Developed a full-stack website with Laravel, Jetstream, Livewire, and Tailwind CSS
 
-// #work(
-//   title: "Self-Hosted AI Infrastructure",
-//   company: "Personal Project",
-//   location: "Eindhoven, Netherlands",
-//   dates: "2024 – Present",
-// )
-// - Deployed local LLM inference using Ollama on a VPS running Arch Linux
-// - Integrated multiple AI APIs (OpenRouter, Anthropic Claude) into
-//   personal development workflows
-
-== Honors & Awards
-
-// #work(
-//   title: "1st Place — Eastern Competitive Programming Competition",
-//   company: "",
-//   location: "Rousse, Bulgaria",
-//   dates: "2016",
-// )
-
-// #work(
-//   title: "3rd Place — National Mathematical Linguistics Olympiad (Teams)",
-//   company: "",
-//   location: "Bulgaria",
-//   dates: "2019",
-// )
+== Awards
 
 #work(
   title: "3rd Award — Teenhack Hackathon",
   company: "",
-  location: "Rousse, Bulgaria",
+  location: "Ruse, Bulgaria",
   dates: "2020",
 )
-- Idea: smart fridge camera tracking products using computer vision and ML, keeping list of items,
-  providing notification before item expiration, and automatic shopping list renewal
+- Proposed a smart-fridge concept using computer vision for stock tracking and expiry reminders
 
 #work(
   title: "Semifinalist — Pandalabs Hackathon (WWF)",
@@ -117,15 +97,17 @@
   location: "",
   dates: "2021",
 )
-- Topic: Future of Mobility — proposed an urban ecosystem integrating public
-  transport with shared e-bike and e-scooter services
+- Designed a future-of-mobility concept combining public transport with shared micromobility
 
-== Technical Skills
+== Skills
 
 - *Languages:* Python, C/C++, JavaScript/TypeScript, PHP, Bash/Shell
-- *Frameworks & Tools:* Laravel, Livewire, Linux (Arch), Neovim,
-  Docker, Git
-- *Areas:* Full-Stack Web Development, Linux Systems Administration
+- *Tools:* Linux (Arch), Git, Docker, Laravel, Livewire, Neovim
+- *Focus areas:* Embedded systems, full-stack development, AI tool integration
+
+== Interests
+
+- Embedded systems and electronics, AI/LLM integration, xianxia and donghua, developer communities, peer tutoring
 
 == Languages
 
